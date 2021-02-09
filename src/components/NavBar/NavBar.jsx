@@ -4,9 +4,12 @@ import "./NavBar.css";
 
 const NavBar = (props) => (
 
-    <div className="full-Navbar">
+    <div className="component">
         <div>
             <Link to='/aboutMe' className=''>About Me</Link>
+        </div>
+        <div>
+            <Link to='/experience' className=''>Experience</Link>
         </div>
         <div>
             <Link to='/skills' className=''>Skills</Link>
@@ -15,11 +18,13 @@ const NavBar = (props) => (
             <Link to='/projects' className=''>Projects</Link>
         </div>
         <div>
-            <Link to='/experience' className=''>Experience</Link>
+            <Link to='/educationAndInterests' className=''>Education and Interests</Link>
         </div>
-        
-
+        <div>
+            <Link to='/contact' className=''>Contact</Link>
+        </div>
     </div>
+
 );
 
 export default NavBar
