@@ -15,11 +15,11 @@ class App extends Component {
       <div className="App">
         
         <header className="App-header">Virtual Tour</header>
-        <div>
+        <div className="NavBar">
           <NavBar />
           
         </div>
-        <div>
+        <div className="Main">
           <Switch>
             <Route exact path='/AboutMe' render={({location})=>
               <AboutMe

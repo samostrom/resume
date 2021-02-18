@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 const NavBar = (props) => (
 
-    <div className="component">
+    <div className="Nav">
         <div>
             <Link to='/aboutMe' className=''>About Me</Link>
         </div>
