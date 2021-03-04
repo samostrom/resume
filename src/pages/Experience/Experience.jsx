@@ -4,6 +4,8 @@ const Experience = (props) => {
     return (
         <div>
             <div className=''>
+              <h1> Experience</h1>
+              
               <div>
                 SEI GENERAL ASSEMBLY .... May 2020 - Oct 2020
                 <hr></hr>

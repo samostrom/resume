@@ -14,11 +14,12 @@ class App extends Component {
     return (
       <div className="App">
         
-        <header className="App-header">Virtual Tour</header>
+        <header className="App-header">SAM OSTROM</header>
         <div className="NavBar">
           <NavBar />
           
         </div>
+        
         <div className="Main">
           <Switch>
             <Route exact path='/AboutMe' render={({location})=>
@@ -59,6 +60,7 @@ class App extends Component {
             }/>
           </Switch>
         </div>
+        
       </div>
     );
   }
